@@ -1,0 +1,26 @@
+{
+  "name": "tubo-astro-adonis-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-cli": "^7.3.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.15"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md,css,html}": [
+      "prettier --write"
+    ]
+  },
+  "packageManager": "pnpm@8.7.0"
+}

@@ -1,0 +1,23 @@
+# Environement
+.env
+.env.ci
+.env.dev
+
+# Build Folders
+.turbo
+build/**
+dist/**
+.next/**
+
+# Codegen
+.docker/certs
+
+# Temp
+temp 
+tmp 
+
+# Sys Files
+.DS_Store
+node_modules
+packages/shared/dist
+docker/certs
